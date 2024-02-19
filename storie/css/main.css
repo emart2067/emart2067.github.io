@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "";
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:var(--exemplevariable);
+    background-color: black;
+}
+
+#myVideo {
+    position: absolute;
+    padding-right: 12vw;
+    right: 0;
+    bottom: 0;
+    min-width: 70%; 
+    min-height: 70%;
+    z-index: -1;
+  }
+
+a{
+    text-decoration: none;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 25%;
+
+}
+
+
+
