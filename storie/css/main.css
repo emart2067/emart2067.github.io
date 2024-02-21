@@ -39,8 +39,10 @@ p{
     font-size: 50px;
     font-weight: bold;
     color: white;
-    text-align: center;
-    padding-top: 25%;
+    text-align: right;
+    margin-bottom: 20vh;
+    z-index: 1;
+  
 
 }
 
