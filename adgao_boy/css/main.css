@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "";
+    src: url();
+    font-style: normal;
+    font-weight: normal;
+}
+
+:root{
+    --variable : rgb(255,0,0);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color:var(--exemplevariable);
+    background-color: black;
+}
+
+main{
+    display: grid;
+    grid-template-columns:(2, 1fr);
+    grid-template-rows:(4, 1fr);
+}
+
+#vid1{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+#text1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5.5vw;
+}
+
+#text2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 5.5vw;
+}
+
+
+    
+
