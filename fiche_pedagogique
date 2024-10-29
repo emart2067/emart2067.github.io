@@ -1,7 +1,6 @@
 Fiche Pédagogique
 Informations Étudiant
 Nom : RETAILLEAU
-
 Prénom :Emilie
 
 Profil et Connaissances
@@ -35,18 +34,23 @@ PRÉSENTATION ET ARGUMENTATION 13
 Projet et Thématique de Recherche
 
 Projet 1
+
 Sujet de Projet
-Titre du projet :
+Titre du projet : 
 Description du projet (environ 150 mots) :
+
 Thématiques de Recherche
-Thématiques que vous souhaitez explorer : Création de formes 3D réagissant aux données du son. Piano live ?
-Pourquoi cette thématique vous intéresse-t-elle ? (environ 100 mots) : La thématique est lié à mon domaine de recherche. 
+Thématiques que vous souhaitez explorer : Création de formes 3D réagissant aux données du son. Piano live 
+Pourquoi cette thématique vous intéresse-t-elle ? (environ 100 mots) : La thématique est lié à mon domaine de recherche. J'aimerai produire ma propre identité sonore dans mes projets, ma pratique au piano pourrait être exploiter. 
+
 Outils et Techniques
-Outils que vous comptez utiliser (logiciels, langages de programmation, etc.) :
-Techniques spécifiques que vous souhaitez maîtriser ou expérimenter :
-Références Artistiques
+Outils que vous comptez utiliser (logiciels, langages de programmation, etc.) : TouchDesigner / P5.js
+Techniques spécifiques que vous souhaitez maîtriser ou expérimenter : Création 3D, filtrage des données sonores grÂce à P5.js.
+
+Références Artistiques 
 Argumentaire expliquant la pertinence de votre projet (environ 150 mots) :
-Références artistiques qui inspirent votre travail (livres, artistes, œuvres, etc.) :
+Références artistiques qui inspirent votre travail (livres, artistes, œuvres, etc.) : 
+
 Actions
 Contribution à un Projet d'Autre Étudiant
 // Décrivez comment vous comptez contribuer au projet d'un autre étudiant (proposition d'idées, aide technique, etc.) :
