@@ -16,4 +16,22 @@
     width: 50%;
   }
 
+  audio{
+    width: 50%;
+    /* supprime un effet non voulu de marge sur ces deux éléments spécifiques */
+    display: block;
+    border-radius: 4px;
+    
+}
+
+iframe{
+    display: block;
+    grid-column: 1/2;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+
 }
