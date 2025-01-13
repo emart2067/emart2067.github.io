@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- head : metadonnées et liens du site -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- infos sur le site -->
+    <title>Expérimentation graphique</title>
+    <meta name="description" content="description courte du site" />
+    <!-- icone de votre site -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+</head>
+
+<!-- body : contenu visibles du site -->
+<body>
+    <header>
+        <h1>SOUND BOUNCING VISION 5</h1>
+    </header>
+
+    <main>
+        <section>
+            <!-- balise vidéo -->
+            <!-- controls = affiche la timeline, le slider pour le son, plus-->
+            <!-- autres attributs : autoplay, loop, muted -->
+            <!-- poster = miniature de la vidéo -->
+            <div id="projet">
+                <iframe src="project1/index.html"></iframe>
+            </div>    
+ 
+        </section>
+
+        <section>
+            <!-- balise audio -->
+            <audio controls>
+                <!-- source : chemin vers le fichier video -->
+                <source src="src/audio/Shadow Dance.mp3" type="audio/mpeg">
+                <!-- le texte n'est affiché que si le navigateur ne supporte pas le format -->
+                Your browser does not support the audio element.
+            
+            </audio>
+
+        </section>
+
+
+    </main>
+
+    
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
