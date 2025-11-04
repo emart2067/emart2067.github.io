@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- infos + SEO -->
+    <title>Fragment_Solis</title>
+    <meta name="description" content="Description du site" />
+    <!-- icones -->
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="icon" href="favicon.ico" />
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+<header>
+   <marquee direction="left" speed="normal" behavior="loop" class="marquee">
+     FRAGMENT_SOLIS
+  </marquee>
+</header>
+
+<body>
+   
+
+    <section class="wrapper">
+        <div class="vid">
+            <h2>Analyse fragment - en cours...</h2>
+            <!-- balise vidéo -->
+            <!-- controls = affiche la timeline, le slider pour le son, plus-->
+            <!-- autres attributs : autoplay, loop, muted -->
+            <!-- poster = miniature de la vidéo -->
+            <video controls loop muted autplay poster="src/img/fragment.png" autoplay>
+                <!-- source : chemin vers le fichier video -->
+                <source src="src/video/fragmentsolis.mov" type="video/mp4">
+                <!-- le texte n'est affiché que si le navigateur ne supporte pas le format -->
+                Your browser does not support the video tag.
+
+            </video>
+        </div>
+        <div class="station">
+            <h2>Station - statue [ online ]</h2>
+            <!-- balise vidéo -->
+            <!-- controls = affiche la timeline, le slider pour le son, plus-->
+            <!-- autres attributs : autoplay, loop, muted -->
+            <!-- poster = miniature de la vidéo -->
+            <video controls loop muted autplay poster="src/img/station.png" autoplay>
+                <!-- source : chemin vers le fichier video -->
+                <source src="src/video/station.mov" type="video/mp4">
+                <!-- le texte n'est affiché que si le navigateur ne supporte pas le format -->
+                Your browser does not support the video tag.
+
+            </video>
+        </div>    
+                <div class="objet">
+            <h2>Stabilization of the fragment...</h2>
+            <!-- balise vidéo -->
+            <!-- controls = affiche la timeline, le slider pour le son, plus-->
+            <!-- autres attributs : autoplay, loop, muted -->
+            <!-- poster = miniature de la vidéo -->
+            <video controls loop muted autplay poster="src/img/objet.png" autoplay>
+                <!-- source : chemin vers le fichier video -->
+                <source src="src/video/objet.mp4" type="video/mp4">
+                <!-- le texte n'est affiché que si le navigateur ne supporte pas le format -->
+                Your browser does not support the video tag.
+
+            </video>
+        </div> 
+        <div id="sismo">
+             <h2>Sismographe - [ online ]</h2>
+            <iframe src="src/iframe/sismo/index.html"></iframe>
+        </div>
+        <div id="projet">
+             <h2>Vizualisation of the past</h2>
+            <iframe src="src/iframe/astre/index.html"></iframe>
+        </div>
+        <div id="energie">
+             <h2>Flow --- [active]</h2>
+            <iframe src="src/iframe/energie/index.html"></iframe>
+        </div>
+        <div id="position">
+             <h2>localized position - North Sea</h2>
+             <img src="src/img/position.jpeg">
+        </div>
+       
+     
+    </section>
+        <div id="cartesoleil">
+             <h2>displace of the sun</h2>
+             <img src="src/img/soleil.png">
+        </div>
+     
+
+        
+        
+
+    <!-- scripts -->
+    <script src="js/vendor/jquery-3.6.4.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
